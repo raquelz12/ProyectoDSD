@@ -1,0 +1,80 @@
+html, body {
+    height: 100%;
+    overflow-y: auto;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    width: 100%; /* Asegura que el header ocupe el ancho completo */
+}
+
+.navbar {
+    background-color: #3A693D;
+    color: white;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+}
+
+.titulo {
+    font-family: "Italianno", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.izquierda {
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.centro {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.derecha {
+    text-align: center;
+    display: flex;
+}
+
+.cuerpo {
+    background-color: #FFFFFA;
+    margin: 0 auto; /* Centra el contenido automáticamente */
+    width: 70%;
+    max-width: 1200px;
+    padding: 1rem;
+    height: auto;
+}
+
+footer {
+    background-color: #95C4EA;
+    color: white;
+    padding: 10px;
+}
